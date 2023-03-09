@@ -1,19 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>War of Cards</title>
-    <link href="index.css" rel="stylesheet">
-</head>
-<body>
-    <button id="new-card">New Card</button>
-    <div id="cards">
-        <div class="card-slot"></div>
-        <div class="card-slot"></div>
-    </div>
-    <button id="draw-cards">Draw Card</button>
-    <script src="index.js"></script>
-</body>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="heading">
+            <button id="new-deck">New Deck</button>
+            <p id="rem-cards"></p>
+        </div>
+        <h2 id="winner">Game of War!</h2>
+        <h3 id="comp-score">Computer Score: 0</h3>
+        <div id="cards">
+            <div class="card-slot"></div>
+            <div class="card-slot"></div>
+        </div>
+        <h3 id="user-score">Your Score: 0</h3>
+        <button id="draw-cards" class="draw">Draw</button>
+        <script src="index.js"></script>
+    </body>
 </html>
